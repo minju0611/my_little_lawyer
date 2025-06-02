@@ -19,7 +19,7 @@ DISPLAY = 100
 MAX_PAGES = 1000
 SLEEP_SEC = 0.5
 
-# ✅ 수집 함수
+# ✅ 수집 함수 , 국가법령정보 api 사용
 def fetch_case_list_page(page: int):
     url = (
         f"http://www.law.go.kr/DRF/lawSearch.do"
